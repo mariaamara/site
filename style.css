@@ -1,4 +1,23 @@
-header{
+*{
+    margin: 0;
+    padding: 3;
+}
+
+.cabeçalho{
     background-color: #3b6072;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 24px 0; 
+}
+
+.cabeçalho-imagem{
+    width: 13%;
+}
+
+.cabeçalho-lista-item{
+    display:inline-block;
+    margin: 0 16px;
+    font-size: 50px;
 }
