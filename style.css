@@ -2,9 +2,11 @@
     margin: 0;
     padding: 3;
 }
-
+body{
+    font-family: 'Playfair Display' , serif;
+}
 .cabeçalho{
-    background-color: #3b6072;
+    background-color:#380e35 ;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -20,4 +22,28 @@
     display:inline-block;
     margin: 0 16px;
     font-size: 50px;
+}
+
+.escola{
+    background-image: linear-gradient(#380e35,#81167a)  ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.escola-div-conteudo{
+    width: 25%;
+}
+.escola-titulo{
+    padding: 24px 0;
+}
+.estudante-imagem{
+    width: 13%;
+}
+.estudante-imagemII{
+    width: 13%;
 }
